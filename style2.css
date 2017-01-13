@@ -1,0 +1,103 @@
+.myclass {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.site-header h4 {
+    background-color: grey;
+    margin-top: 0;
+    padding: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-height: 1px;
+    border-left: 1px;
+    border-right: 1px;
+}
+
+.meintable {
+    border-radius: 20px 20px 20px 20px;
+-moz-border-radius: 20px 20px 20px 20px;
+-webkit-border-radius: 20px 20px 20px 20px;
+border: 0px solid #ffffff;
+-webkit-box-shadow: 10px 10px 65px -10px rgba(0,0,0,0.66);
+-moz-box-shadow: 10px 10px 65px -10px rgba(0,0,0,0.66);
+box-shadow: 10px 10px 65px -10px rgba(0,0,0,0.66);
+height: 800px;
+width: 1080px;
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+.meintable {
+    border-radius: 20px 20px 20px 20px;
+-moz-border-radius: 20px 20px 20px 20px;
+-webkit-border-radius: 20px 20px 20px 20px;
+border: 0px solid #ffffff;
+-webkit-box-shadow: 10px 10px 65px -10px rgba(0,0,0,0.66);
+-moz-box-shadow: 10px 10px 65px -10px rgba(0,0,0,0.66);
+box-shadow: 10px 10px 65px -10px rgba(0,0,0,0.66);
+height: 414px;
+width: 400px;
+}
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.meintable {
+    border-radius: 20px 20px 20px 20px;
+-moz-border-radius: 20px 20px 20px 20px;
+-webkit-border-radius: 20px 20px 20px 20px;
+border: 0px solid #ffffff;
+-webkit-box-shadow: 10px 10px 65px -10px rgba(0,0,0,0.66);
+-moz-box-shadow: 10px 10px 65px -10px rgba(0,0,0,0.66);
+box-shadow: 10px 10px 65px -10px rgba(0,0,0,0.66);
+height: 768px;
+width: 675px;
+}
+}
+
+@media screen 
+  and (min-device-width: 811px) 
+  and (max-device-width: 1440px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+.meintable {
+    border-radius: 20px 20px 20px 20px;
+-moz-border-radius: 20px 20px 20px 20px;
+-webkit-border-radius: 20px 20px 20px 20px;
+border: 0px solid #ffffff;
+-webkit-box-shadow: 10px 10px 65px -10px rgba(0,0,0,0.66);
+-moz-box-shadow: 10px 10px 65px -10px rgba(0,0,0,0.66);
+box-shadow: 10px 10px 65px -10px rgba(0,0,0,0.66);
+height: 600px;
+width: 800px;
+}
+}
+
+
+.bottomclass {
+    font-size: 20px;
+}
+
+.bottomletters {
+    color: black;
+}
+
+.site-footer h5 {
+    background-color: grey;
+    padding: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-height: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    margin-bottom: 0;
+    text-align: center;
+}
